@@ -3,6 +3,21 @@
 # pylint: disable=broad-exception-raised
 # pylint: disable=import-error
 
+import mapreduce.run_mapreduce_job as run_mapreduce_job  # type: ignore
+
+
+#
+# Columns:
+# total_bill, tip, sex, smoker, day, time, size
+#
+
+
+
+#
+# SELECT *, tip/total_bill as tip_rate
+# FROM tips;
+#
+
 
 
 #
